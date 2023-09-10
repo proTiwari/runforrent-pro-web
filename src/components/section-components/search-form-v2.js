@@ -83,7 +83,7 @@ class SearchFormV2 extends Component {
 								</div>
 								<div className="btn-wrapper text-center">
 									{/* <button type="submit" class="btn theme-btn-1 btn-effect-1 text-uppercase">Search Inventory</button> */}
-									<Link to="/shop-right-sidebar" className="btn theme-btn-1 btn-effect-1 text-uppercase">Search Inventory</Link>
+									<Link to="/shop-right-sidebar" className="btn theme-btn-1 btn-effect-1 text-uppercase">Search Inventory3</Link>
 								</div>
 								</div>
 							</form>
@@ -152,7 +152,7 @@ class SearchFormV2 extends Component {
 								</div>
 								<div className="btn-wrapper text-center">
 									{/* <button type="submit" class="btn theme-btn-1 btn-effect-1 text-uppercase">Search Inventory</button> */}
-									<Link to="/shop-right-sidebar" className="btn theme-btn-1 btn-effect-1 text-uppercase">Search Inventory</Link>
+									<Link to="/shop-right-sidebar" className="btn theme-btn-1 btn-effect-1 text-uppercase">Search Inventory4</Link>
 								</div>
 								</div>
 							</form>

@@ -63,7 +63,7 @@ class Navbar extends Component {
 					<div className="col">
 					<div className="site-logo-wrap">
 						<div className="site-logo go-top">
-						<Link to="/"><img src={publicUrl+"assets/img/runforrent_logo.png"} alt="Logo" /></Link>
+						<Link to="/"><img src={publicUrl+"assets/img/run.png"} alt="Logo" style={{ width: "500px", height: "auto" }} /></Link>
 						</div>
 						<div className="get-support clearfix d-none">
 						<div className="get-support-icon">
@@ -81,8 +81,8 @@ class Navbar extends Component {
 						<nav>
 						<div className="ltn__main-menu go-top">
 							<ul>
-							<li className="menu-icon"><Link to="/">Home</Link>
-								<ul className="sub-menu menu-pages-img-show">
+							<li ><Link to="/">Home</Link>
+								{/* <ul className="sub-menu menu-pages-img-show">
 								<li>
 									<Link to="/policyagreement">Legal Agreements</Link>
 									<img src={publicUrl+"assets/img/home-demos/home-1.jpg"} alt="#" />
@@ -127,7 +127,7 @@ class Navbar extends Component {
 									<Link to="/home-v10">Home Style 10</Link>
 									<img src={publicUrl+"assets/img/home-demos/home-11.jpg"}  alt="#" />
 								</li>
-								</ul>
+								</ul> */}
 							</li>
 							<li className="menu-icon"><Link to="/about">About</Link>
 								<ul>
@@ -268,7 +268,7 @@ class Navbar extends Component {
 				<div className="ltn__utilize-menu-inner ltn__scrollbar">
 					<div className="ltn__utilize-menu-head">
 					<div className="site-logo">
-						<Link to="/"><img src={publicUrl+"assets/img/logo.png"} alt="Logo" /></Link>
+						<Link to="/"><img src={publicUrl+"assets/img/run.png"} alt="Logo" /></Link>
 					</div>
 					<button className="ltn__utilize-close">×</button>
 					</div>
@@ -280,8 +280,8 @@ class Navbar extends Component {
 					</div>
 					<div className="ltn__utilize-menu">
 					<ul>
-						<li><a href="#">Home</a>
-						<ul className="sub-menu">
+						<li><a href="/home-v6">Home</a>
+						{/* <ul className="sub-menu">
 						<li>
 									<Link to="/policyagreement">Legal Agreements</Link>
 								</li>
@@ -295,7 +295,7 @@ class Navbar extends Component {
 						<li><Link to="/home-v8">Home Style 08</Link></li>
 						<li><Link to="/home-v9">Home Style 09</Link></li>
 						<li><Link to="/home-v10">Home Style 10</Link></li>
-						</ul>
+						</ul> */}
 						</li>
 						<li><Link to="/about">About</Link>
 						<ul className="sub-menu">

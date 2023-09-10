@@ -25,9 +25,9 @@ class Banner extends Component {
 				                    </a>
 				                  </div>
 				                  <h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Real Estate Agency</h6>
-				                  <h1 className="slide-title animated ">Find Your Dream <br /> House By Us</h1>
+				                  <h1 className="slide-title animated ">Find Your Dream <br /> Property By Us</h1>
 				                  <div className="slide-brief animated">
-				                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+				                    <p>At RunForRent, we provide you with verified properties, detailed insights, and unedited property visit videos with inside-out visuals.</p>
 				                  </div>
 				                  <div className="btn-wrapper animated ">
 				                    	<Link to="/about" className="theme-btn-1 btn btn-effect-1 go-top">Make An Enquiry</Link>
@@ -46,7 +46,7 @@ class Banner extends Component {
 				      </div>
 				    </div>
 				    {/* ltn__slide-item */}
-				    <div className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal ltn__slide-item-3">
+				    {/* <div className="ltn__slide-item ltn__slide-item-2  ltn__slide-item-3-normal ltn__slide-item-3">
 				      <div className="ltn__slide-item-inner  text-right text-end">
 				        <div className="container">
 				          <div className="row">
@@ -66,12 +66,12 @@ class Banner extends Component {
 				              </div>
 				              <div className="slide-item-img slide-img-left">
 							  {/* <img src={"/assets/img/bg/21.jpg"} /> */}
-				              </div>
+				              {/* </div>
 				            </div>
 				          </div>
 				        </div>
 				      </div>
-				    </div>
+				    </div>  */}
 				    {/*  */}
 				  </div>
 			</div>

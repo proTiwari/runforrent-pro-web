@@ -18,7 +18,7 @@ class NavbarV5 extends Component {
 					<div className="row">
 					<div className="col">
 						<div className="site-logo">
-						<Link to="/"><img src={publicUrl+"assets/img/logo.png"} alt="Logo" /></Link>
+						<Link to="/"><img src={publicUrl+"assets/img/run.png"} alt="Logo" /></Link>
 						</div>
 					</div>
 					<div className="col header-contact-serarch-column d-none d-xl-block">
@@ -140,7 +140,7 @@ class NavbarV5 extends Component {
 					<div className="col header-menu-column justify-content-center">
 						<div className="sticky-logo">
 						<div className="site-logo">
-							<Link to="/"><img src={publicUrl+"assets/img/logo.png"} alt="Logo" /></Link>
+							<Link to="/"><img src={publicUrl+"assets/img/run.png"} alt="Logo" /></Link>
 						</div>
 						</div>
 						<div className="header-menu header-menu-2">
@@ -344,7 +344,7 @@ class NavbarV5 extends Component {
 				<div className="ltn__utilize-menu-inner ltn__scrollbar">
 					<div className="ltn__utilize-menu-head">
 					<div className="site-logo">
-						<Link to="/"><img src={publicUrl+"assets/img/logo.png"} alt="Logo" /></Link>
+						<Link to="/"><img src={publicUrl+"assets/img/run.png"} alt="Logo" /></Link>
 					</div>
 					<button className="ltn__utilize-close">×</button>
 					</div>
@@ -463,7 +463,7 @@ class NavbarV5 extends Component {
 					<ul>
 						<li><a href="#" title="Facebook"><i className="fab fa-facebook-f" /></a></li>
 						<li><a href="#" title="Twitter"><i className="fab fa-twitter" /></a></li>
-						<li><a href="#" title="Linkedin"><i className="fab fa-linkedin" /></a></li>
+						{/* <li><a href="#" title="Linkedin"><i className="fab fa-linkedin" /></a></li> */}
 						<li><a href="#" title="Instagram"><i className="fab fa-instagram" /></a></li>
 					</ul>
 					</div>

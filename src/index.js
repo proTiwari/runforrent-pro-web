@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {createRoot} from 'react-dom';
+import {createRoot} from 'react-dom/client';
 import { BrowserRouter as Router, HashRouter, Route, Switch } from "react-router-dom";
 import HomeV1 from './components/home-v1';
 import HomeV2 from './components/home-v2';

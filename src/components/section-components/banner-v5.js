@@ -11,7 +11,7 @@ class BannerV5 extends Component {
     return  <div className="ltn__slider-area ltn__slider-4">
 				<div className="ltn__slide-one-active----- slick-slide-arrow-1----- slick-slide-dots-1----- arrow-white----- ltn__slide-animation-active">
 				{/* ltn__slide-item */}
-				<div className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-4 bg-image bg-overlay-theme-black-60" data-bs-bg={publicUrl+"assets/img/slider/11.jpg"}>
+				<div className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-4 bg-image bg-overlay-theme-black-60" data-bs-bg={publicUrl+"assets/img/slider/230.jpg"}>
 					<div className="ltn__slide-item-inner text-left">
 					<div className="container">
 						<div className="row">
@@ -79,16 +79,16 @@ class BannerV5 extends Component {
 										</div>
 										</div> 
 										<div className="car-price-filter-range col-lg-12">
-										<div className="price_filter">
+										{/* <div className="price_filter">
 											<div className="price_slider_amount">
 											<input type="submit" defaultValue="Your range:" /> 
 											<input type="text" className="amount" name="price" placeholder="Add Your Price" /> 
 											</div>
 											<div className="slider-range" />
-										</div>
+										</div> */}
 										<div className="btn-wrapper text-center go-top">
 											{/* <button type="submit" class="btn theme-btn-1 btn-effect-1 text-uppercase">Search Inventory</button> */}
-											<Link to="/shop-right-sidebar" className="btn theme-btn-1 btn-effect-1 text-uppercase">Search Inventory</Link>
+											<Link to="/shop-right-sidebar" className="btn theme-btn-1 btn-effect-1 text-uppercase">Search Inventory1</Link>
 										</div>
 										</div>
 									</form>
@@ -137,29 +137,29 @@ class BannerV5 extends Component {
 											<option>4</option>
 										</select>
 										</div> 
-										<div className="ltn__car-dealer-form-item ltn__custom-icon ltn__icon-cog col-lg-4 col-md-6">                                                            
+										{/* <div className="ltn__car-dealer-form-item ltn__custom-icon ltn__icon-cog col-lg-4 col-md-6">                                                            
 										<div className="input-item input-item-name ltn__custom-icon">
 											<input type="text" name="name" placeholder="Min size (in sqft)" />
 										</div>
-										</div> 
-										<div className="ltn__car-dealer-form-item ltn__custom-icon ltn__icon-cog col-lg-4 col-md-6">                                                            
+										</div>  */}
+										{/* <div className="ltn__car-dealer-form-item ltn__custom-icon ltn__icon-cog col-lg-4 col-md-6">                                                            
 										<div className="input-item input-item-name ltn__custom-icon">
 											<input type="text" name="name" placeholder="Max size (in sqft)" />
 										</div>
-										</div> 
-										<div className="car-price-filter-range col-lg-12">
-										<div className="price_filter">
+										</div>  */}
+										{/* <div className="car-price-filter-range col-lg-12"> */}
+										{/* <div className="price_filter">
 											<div className="price_slider_amount">
 											<input type="submit" defaultValue="Your range:" /> 
 											<input type="text" className="amount" name="price" placeholder="Add Your Price" /> 
 											</div>
 											<div className="slider-range" />
-										</div>
+										</div> */}
 										<div className="btn-wrapper text-center go-top">
 											{/* <button type="submit" class="btn theme-btn-1 btn-effect-1 text-uppercase">Search Inventory</button> */}
-											<Link to="/shop-right-sidebar" className="btn theme-btn-1 btn-effect-1 text-uppercase">Search Inventory</Link>
+											<Link to="/shop-right-sidebar" className="btn theme-btn-1 btn-effect-1 text-uppercase">Search Inventory2</Link>
 										</div>
-										</div>
+										{/* </div> */}
 									</form>
 									</div>
 								</div>

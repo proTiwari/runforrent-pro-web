@@ -10,7 +10,7 @@ const AddListing_V1 = () => {
         <Navbar />
         <PageHeader headertitle="Add Listing" />
         <AddListing />
-        <CallToActionV1 />
+        {/* <CallToActionV1 /> */}
         <Footer />
     </div>
 }

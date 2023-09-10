@@ -27,7 +27,7 @@ class PolicyAgreement extends Component {
                 
                 <p>If you have any questions or concerns about our privacy policy or the use of the camera in our app, please contact us at team@runforrent.com. We will be happy to provide additional information or address any issues you may have.</p>
                 </p>
-                <p>latest updated on 24 August 2023<br> SHUBHAM TIWARI (CEO)</p>
+                <p>latest updated on 24 August 2023<br> ATUL TIWARI (CEO)</p>
             </div>
         `;
 
