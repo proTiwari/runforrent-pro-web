@@ -4,6 +4,22 @@ import parse from 'html-react-parser';
 
 class Banner extends Component {
 
+	handleClick = () => {
+		// Scroll to a specific Y position on the page (e.g., 500 pixels from the top)
+		const screenWidth = window.innerWidth;
+		if(screenWidth<=468){
+			window.scrollTo({
+				top: 740,
+				behavior: 'smooth' // Add smooth scrolling animation
+			  });
+		}else{
+			window.scrollTo({
+				top: 440,
+				behavior: 'smooth' // Add smooth scrolling animation
+			  });
+		}
+	  }
+
     render() {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
@@ -30,7 +46,7 @@ class Banner extends Component {
 				                    <p>At RunForRent, we provide you with verified properties, detailed insights, and unedited property visit videos with inside-out visuals.</p>
 				                  </div>
 				                  <div className="btn-wrapper animated ">
-				                    	<Link to="/about" className="theme-btn-1 btn btn-effect-1 go-top">Make An Enquiry</Link>
+				                    	<button onClick={this.handleClick} className="theme-btn-1 btn btn-effect-1 go-top">Search Property</button>
 				                    <a className="ltn__video-play-btn bg-white" href="https://www.youtube.com/embed/HnbMYzdjuBs?autoplay=1&showinfo=0" data-rel="lightcase">
 				                      <i className="icon-play  ltn__secondary-color" />
 				                    </a>

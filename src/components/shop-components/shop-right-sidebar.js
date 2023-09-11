@@ -13,14 +13,15 @@ class ShopGridV1 extends Component {
 			<div className="ltn__product-area ltn__product-gutter">
 				<div className="container">
 					<div className="row">
-						<div className="col-lg-8  mb-100">
+						<div >
+						{/* className="col-lg-8  mb-100" */}
 							<div className="ltn__shop-options">
 							<ul className="justify-content-start">
 								<li>
 								<div className="ltn__grid-list-tab-menu ">
 									<div className="nav">
-									<a className="active show" data-bs-toggle="tab" href="#liton_product_grid"><i className="fas fa-th-large" /></a>
-									<a data-bs-toggle="tab" href="#liton_product_list"><i className="fas fa-list" /></a>
+									{/* <a className="active show" data-bs-toggle="tab" href="#liton_product_grid"><i className="fas fa-th-large" /></a>
+									<a data-bs-toggle="tab" href="#liton_product_list"><i className="fas fa-list" /></a> */}
 									</div>
 								</div>
 								</li>
@@ -30,7 +31,7 @@ class ShopGridV1 extends Component {
 								</div> 
 								</li>
 								<li>
-								<div className="short-by text-center">
+								{/* <div className="short-by text-center">
 									<select className="nice-select">
 									<option>Default Sorting</option>
 									<option>Sort by popularity</option>
@@ -38,10 +39,10 @@ class ShopGridV1 extends Component {
 									<option>Sort by price: low to high</option>
 									<option>Sort by price: high to low</option>
 									</select>
-								</div> 
+								</div>  */}
 								</li>
 								<li>
-								<div className="short-by text-center">
+								{/* <div className="short-by text-center">
 									<select className="nice-select">
 									<option>Per Page: 12</option>
 									<option>Per Page: 20</option>
@@ -49,7 +50,7 @@ class ShopGridV1 extends Component {
 									<option>Per Page: 50</option>
 									<option>Per Page: 100</option>
 									</select>
-								</div> 
+								</div>  */}
 								</li>
 							</ul>
 							</div>
@@ -813,7 +814,7 @@ class ShopGridV1 extends Component {
 							</div>
 							</div>
 						</div>
-						<Sidebar />
+						{/* <Sidebar /> */}
 					</div>
 				</div>
 			</div>

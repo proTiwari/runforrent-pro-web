@@ -27,7 +27,7 @@ class Navbar extends Component {
 							<li className="d-none">
 							{/* ltn__language-menu */}
 							<div className="ltn__drop-menu ltn__currency-menu ltn__language-menu">
-								<ul>
+								{/* <ul>
 								<li><a href="#" className="dropdown-toggle"><span className="active-currency">English</span></a>
 									<ul>
 									<li><Link to="#">Arabic</Link></li>
@@ -36,9 +36,9 @@ class Navbar extends Component {
 									<li><Link to="#">English</Link></li>
 									<li><Link to="#">French</Link></li>
 									<li><Link to="#">Hindi</Link></li>
-									</ul>
-								</li>
-								</ul>
+									</ul> */}
+								{/* </li>
+								</ul> */}
 							</div>
 							</li>
 							<li>
@@ -129,8 +129,8 @@ class Navbar extends Component {
 								</li>
 								</ul> */}
 							</li>
-							<li className="menu-icon"><Link to="/about">About</Link>
-								<ul>
+							<li ><Link to="/about">About</Link>
+								{/* <ul>
 								<li><Link to="/about">About</Link></li>
 								<li><Link to="/service">Services</Link></li>
 								<li><Link to="/service-details">Service Details</Link></li>
@@ -141,9 +141,9 @@ class Navbar extends Component {
 								<li><Link to="/team-details">Team Details</Link></li>
 								<li><Link to="/faq">FAQ</Link></li>
 								<li><Link to="/location">Google Map Locations</Link></li>
-								</ul>
+								</ul> */}
 							</li>
-							<li className="menu-icon"><Link to="/shop">Shop</Link>
+							{/* <li className="menu-icon"><Link to="/shop">Shop</Link>
 								<ul>
 									<li><Link to="/shop">Shop</Link></li>
 									<li><Link to="/shop-grid">Shop Grid</Link></li>
@@ -156,8 +156,8 @@ class Navbar extends Component {
 									<li><Link to="/login">Sign in</Link></li>
 									<li><Link to="/register">Register</Link></li>
 								</ul>
-							</li>
-							<li className="menu-icon"><Link to="/blog-grid">News</Link>
+							</li> */}
+							{/* <li className="menu-icon"><Link to="/blog-grid">News</Link>
 								<ul>
 									<li><Link to="/blog">News</Link></li>
 									<li><Link to="/blog-grid">News Grid</Link></li>
@@ -165,8 +165,8 @@ class Navbar extends Component {
 									<li><Link to="/blog-right-sidebar">News Right sidebar</Link></li>
 									<li><Link to="/blog-details">News details</Link></li>
 								</ul>
-							</li>
-							<li className="menu-icon"><Link to="#">Pages</Link>
+							</li> */}
+							{/* <li className="menu-icon"><Link to="#">Pages</Link>
 								<ul className="mega-menu">
 									<li><a href="#">Inner Pages</a>
 										<ul>
@@ -201,7 +201,7 @@ class Navbar extends Component {
 									<li><Link to="/shop"><img src={publicUrl+"assets/img/banner/menu-banner-1.jpg"} alt="#" /></Link>
 									</li>
 								</ul>
-							</li>
+							</li> */}
 							<li><Link to="/contact">Contact</Link></li>
 							<li><Link to="/legalagreement">Legal Agreements</Link></li>
 							</ul>
@@ -212,7 +212,7 @@ class Navbar extends Component {
 					</div>
 					<div className="col ltn__header-options ltn__header-options-2 mb-sm-20">
 					{/* header-search-1 */}
-					<div className="header-search-wrap">
+					{/* <div className="header-search-wrap">
 						<div className="header-search-1">
 						<div className="search-icon">
 							<i className="icon-search for-search-show" />
@@ -227,7 +227,7 @@ class Navbar extends Component {
 							</button>
 						</form>
 						</div>
-					</div>
+					</div> */}
 					{/* user-menu */}
 					<div className="ltn__drop-menu user-menu">
 						<ul>
@@ -242,12 +242,12 @@ class Navbar extends Component {
 						</ul>
 					</div>
 					{/* mini-cart */}
-					<div className="mini-cart-icon">
+					{/* <div className="mini-cart-icon">
                             <a href="#ltn__utilize-cart-menu" className="ltn__utilize-toggle">
                                 <i className="icon-shopping-cart"></i>
                                 <sup>2</sup>
                             </a>
-                    </div>
+                    </div> */}
 					{/* mini-cart */}
 					{/* Mobile Menu Button */}
 					<div className="mobile-menu-toggle d-xl-none">
@@ -272,12 +272,12 @@ class Navbar extends Component {
 					</div>
 					<button className="ltn__utilize-close">×</button>
 					</div>
-					<div className="ltn__utilize-menu-search-form">
+					{/* <div className="ltn__utilize-menu-search-form">
 					<form action={"#"}>
 						<input type="text" placeholder="Search..." />
 						<button><i className="fas fa-search" /></button>
 					</form>
-					</div>
+					</div> */}
 					<div className="ltn__utilize-menu">
 					<ul>
 						<li><a href="/home-v6">Home</a>
@@ -298,7 +298,7 @@ class Navbar extends Component {
 						</ul> */}
 						</li>
 						<li><Link to="/about">About</Link>
-						<ul className="sub-menu">
+						{/* <ul className="sub-menu">
 							<li><Link to="/about">About</Link></li>
 							<li><Link to="/service">Services</Link></li>
 							<li><Link to="/service-details">Service Details</Link></li>
@@ -309,9 +309,9 @@ class Navbar extends Component {
 							<li><Link to="/team-details">Team Details</Link></li>
 							<li><Link to="/faq">FAQ</Link></li>
 							<li><Link to="/location">Google Map Locations</Link></li>
-						</ul>
+						</ul> */}
 						</li>
-						<li><Link to="/shop">Shop</Link>
+						{/* <li><Link to="/shop">Shop</Link>
 						<ul className="sub-menu">
 							<li><Link to="/shop">Shop</Link></li>
 							<li><Link to="/shop-grid">Shop Grid</Link></li>
@@ -324,8 +324,8 @@ class Navbar extends Component {
 							<li><Link to="/login">Sign in</Link></li>
 							<li><Link to="/register">Register</Link></li>
 						</ul>
-						</li>
-						<li><Link to="/blog-grid">News</Link>
+						</li> */}
+						{/* <li><Link to="/blog-grid">News</Link>
 						<ul className="sub-menu">
 							<li><Link to="/blog">News</Link></li>
 							<li><Link to="/blog-grid">News Grid</Link></li>
@@ -333,8 +333,8 @@ class Navbar extends Component {
 							<li><Link to="/blog-right-sidebar">News Right sidebar</Link></li>
 							<li><Link to="/blog-details">News details</Link></li>
 						</ul>
-						</li>
-						<li><Link to="#">Pages</Link>
+						</li> */}
+						{/* <li><Link to="#">Pages</Link>
 							<ul className="sub-menu">
 								<li><Link to="/about">About</Link></li>
 								<li><Link to="/service">Services</Link></li>
@@ -352,14 +352,14 @@ class Navbar extends Component {
 								<li><Link to="/contact">Contact</Link></li>
 								<li><Link to="/coming-soon">Coming Soon</Link></li>
 							</ul>
-                    	</li>
+                    	</li> */}
 						<li><Link to="/contact">Contact</Link></li>
 						<li><Link to="/legalagreement">Legal Agreements</Link></li>
 					</ul>
 					</div>
-					<div className="ltn__utilize-buttons ltn__utilize-buttons-2">
-					<ul>
-						<li>
+					{/* <div className="ltn__utilize-buttons ltn__utilize-buttons-2"> */}
+					{/* <ul> */}
+						{/* <li>
 						<Link to="/my-account" title="My Account">
 							<span className="utilize-btn-icon">
 							<i className="far fa-user" />
@@ -384,9 +384,9 @@ class Navbar extends Component {
 							</span>
 							Shoping Cart
 						</Link>
-						</li>
-					</ul>
-					</div>
+						</li> */}
+					{/* </ul> */}
+					{/* </div> */}
 					<div className="ltn__social-media-2">
 					<ul>
 						<li><a href="#" title="Facebook"><i className="fab fa-facebook-f" /></a></li>

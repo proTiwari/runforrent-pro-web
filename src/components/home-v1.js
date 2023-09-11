@@ -14,13 +14,15 @@ import Testimonial from './section-components/testimonial-v1';
 import BlogSlider from './blog-components/blog-slider-v1';
 import CallToActionV1 from './section-components/call-to-action-v1';
 import Footer from './global-components/footer';
+import ShogGrid from './shop-components/shop-right-sidebar';
 
 const Home_V1 = () => {
     return <div>
         <Navbar />
         <Banner />
         <SearchForm />
-        <Aboutv1 />
+        <ShogGrid />
+        {/* <Aboutv1 />
         <Counter />
         <AboutV2 />
         <Featuresv1 customClass="ltn__feature-area section-bg-1 pt-120 pb-90 mb-120---"/>
@@ -30,7 +32,8 @@ const Home_V1 = () => {
         <Category />
         <Testimonial />
         <BlogSlider customClass="section-subtitle-2"/>
-        <CallToActionV1 />
+        <CallToActionV1 /> */}
+        <br></br>
         <Footer />
     </div>
 }
